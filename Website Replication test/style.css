@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+nav {
+  background-color: green;
+  padding: 20px;
+}
+nav li {
+  display: inline-block;
+  padding: 0px 150px;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+/* Top */
+.top {
+  background-image: url("jacks.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+}
+
+/* Middle */
+
+.mid {
+  text-align: center;
+  margin: 0px 100px;
+}
+
+.mid p {
+  box-sizing: border-box;
+  border: 3px solid black;
+  margin: 40px;
+  padding: 50px;
+}
+/* Footer */
+footer {
+  background-color: green;
+}
